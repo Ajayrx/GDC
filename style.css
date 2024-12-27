@@ -28,7 +28,7 @@ body {
     flex: 1;
 }
 
-/* Hero Section */
+
 .hero-text h1 {
     font-size: 7vw;
     font-weight: 900;
@@ -106,18 +106,18 @@ h3 {
     transform: translateX(20px);
 }
 
-/* Image Section */
+
 .image-section {
-    display: flex; /* Makes images align horizontally */
-    justify-content: space-between; /* Optional: Distributes space between images */
-    align-items: center; /* Aligns images vertically in the center */
-    gap: 20px; /* Adds space between images */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
 }
 
 .feature-image {
     width: 300px;
     height: 900px;
-    object-fit: cover; /* Ensures images are properly scaled */
+    object-fit: cover; 
 }
 
 
@@ -128,7 +128,7 @@ h3 {
     border-radius: 38px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .container {
         flex-direction: column;
